@@ -7,9 +7,36 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MenubarController.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@interface AppDelegate : NSObject <NSApplicationDelegate , NSMenuDelegate> {
+    
+@public 
+    IBOutlet NSMenu *statusMenu;
+    
+@private
+    MenubarController *_menubarController;
+    BOOL showHideFilesAndFolders;
+    BOOL enableDisAbleTimemachineSnapshotUtil;
+    NSString *nameTest;
+
+}
+
+@property (nonatomic, retain) MenubarController *menubarController;
+
+- (BOOL) runScriptCommand:(NSString *)scriptCommand;
+- (void) runScript:(NSString*)scriptName;
+- (void) DeHighlight;
+
+- (IBAction)leftClickAction:(id)sender;
+- (IBAction)toggleRightClickPanel:(id)sender;
+- (IBAction)noActionRequired:(id)sender;
+
+
+- (IBAction)doSomething:(id)sender;
+- (IBAction)ShowHideFoldersandFiles:(id)sender;
+- (IBAction)tidyHTML:(id)sender;
+- (IBAction)enableDisableTimemachineSnapShot:(id)sender;
 
 @end

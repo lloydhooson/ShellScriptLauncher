@@ -13,6 +13,11 @@
 		6E263B61157BD09B00FC6090 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6E263B5F157BD09B00FC6090 /* Credits.rtf */; };
 		6E263B64157BD09B00FC6090 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E263B63157BD09B00FC6090 /* AppDelegate.m */; };
 		6E263B67157BD09C00FC6090 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E263B65157BD09C00FC6090 /* MainMenu.xib */; };
+		6E263B87157BD55200FC6090 /* Eject.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E263B84157BD55200FC6090 /* Eject.png */; };
+		6E263B8D157BD76F00FC6090 /* MenuBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E263B8C157BD76F00FC6090 /* MenuBarController.m */; };
+		6E263B94157BD92500FC6090 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E263B93157BD92500FC6090 /* StatusItemView.m */; };
+		6E263BB9157C31E700FC6090 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 6E263BB8157C31E700FC6090 /* Scripts */; };
+		6EBEAFD81588B5D900F533B8 /* Eject_Highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBEAFD71588B5D900F533B8 /* Eject_Highlight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +26,21 @@
 		6E263B53157BD09B00FC6090 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6E263B54157BD09B00FC6090 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6E263B55157BD09B00FC6090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6E263B58157BD09B00FC6090 /* ShellScriptLauncher-Info.plist */ = {isa = PBXFileReference; path = "ShellScriptLauncher-Info.plist"; sourceTree = "<group>"; };
+		6E263B58157BD09B00FC6090 /* ShellScriptLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShellScriptLauncher-Info.plist"; sourceTree = "<group>"; };
 		6E263B5A157BD09B00FC6090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E263B5C157BD09B00FC6090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E263B5E157BD09B00FC6090 /* ShellScriptLauncher-Prefix.pch */ = {isa = PBXFileReference; path = "ShellScriptLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		6E263B5E157BD09B00FC6090 /* ShellScriptLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShellScriptLauncher-Prefix.pch"; sourceTree = "<group>"; };
 		6E263B60157BD09B00FC6090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		6E263B62157BD09B00FC6090 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E263B62157BD09B00FC6090 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E263B63157BD09B00FC6090 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E263B66157BD09C00FC6090 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6E263B84157BD55200FC6090 /* Eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eject.png; sourceTree = "<group>"; };
+		6E263B8B157BD76F00FC6090 /* MenuBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBarController.h; sourceTree = "<group>"; };
+		6E263B8C157BD76F00FC6090 /* MenuBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBarController.m; sourceTree = "<group>"; };
+		6E263B92157BD92500FC6090 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		6E263B93157BD92500FC6090 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		6E263BB8157C31E700FC6090 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
+		6EBEAFD71588B5D900F533B8 /* Eject_Highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eject_Highlight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +58,9 @@
 		6E263B41157BD09B00FC6090 = {
 			isa = PBXGroup;
 			children = (
+				6E263BB8157C31E700FC6090 /* Scripts */,
 				6E263B56157BD09B00FC6090 /* ShellScriptLauncher */,
+				6E263B6D157BD0B400FC6090 /* UserInterface */,
 				6E263B4F157BD09B00FC6090 /* Frameworks */,
 				6E263B4D157BD09B00FC6090 /* Products */,
 			);
@@ -84,7 +98,9 @@
 			children = (
 				6E263B62157BD09B00FC6090 /* AppDelegate.h */,
 				6E263B63157BD09B00FC6090 /* AppDelegate.m */,
-				6E263B65157BD09C00FC6090 /* MainMenu.xib */,
+				6E263B8B157BD76F00FC6090 /* MenuBarController.h */,
+				6E263B8C157BD76F00FC6090 /* MenuBarController.m */,
+				6E263B91157BD90A00FC6090 /* Views */,
 				6E263B57157BD09B00FC6090 /* Supporting Files */,
 			);
 			path = ShellScriptLauncher;
@@ -100,6 +116,34 @@
 				6E263B5F157BD09B00FC6090 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E263B6D157BD0B400FC6090 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				6E263B8A157BD55500FC6090 /* Graphics */,
+				6E263B65157BD09C00FC6090 /* MainMenu.xib */,
+			);
+			name = UserInterface;
+			path = ShellScriptLauncher;
+			sourceTree = "<group>";
+		};
+		6E263B8A157BD55500FC6090 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				6EBEAFD71588B5D900F533B8 /* Eject_Highlight.png */,
+				6E263B84157BD55200FC6090 /* Eject.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		6E263B91157BD90A00FC6090 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E263B92157BD92500FC6090 /* StatusItemView.h */,
+				6E263B93157BD92500FC6090 /* StatusItemView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +199,9 @@
 				6E263B5B157BD09B00FC6090 /* InfoPlist.strings in Resources */,
 				6E263B61157BD09B00FC6090 /* Credits.rtf in Resources */,
 				6E263B67157BD09C00FC6090 /* MainMenu.xib in Resources */,
+				6E263B87157BD55200FC6090 /* Eject.png in Resources */,
+				6E263BB9157C31E700FC6090 /* Scripts in Resources */,
+				6EBEAFD81588B5D900F533B8 /* Eject_Highlight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +214,8 @@
 			files = (
 				6E263B5D157BD09B00FC6090 /* main.m in Sources */,
 				6E263B64157BD09B00FC6090 /* AppDelegate.m in Sources */,
+				6E263B8D157BD76F00FC6090 /* MenuBarController.m in Sources */,
+				6E263B94157BD92500FC6090 /* StatusItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -286,6 +336,7 @@
 				6E263B6C157BD09C00FC6090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
